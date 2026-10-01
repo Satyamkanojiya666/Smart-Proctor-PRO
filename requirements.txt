@@ -1,0 +1,34 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  AI Exam Proctoring System — Elite Edition
+#  Requirements File
+#  GitHub: https://github.com/Satyamkanojiya666
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Core Computer Vision
+opencv-contrib-python>=4.8,<5
+
+# AI Face Landmark & Pose Detection
+mediapipe>=0.10.0
+
+# Numerical Computing
+numpy>=1.21.0
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  NOTE: The following are part of Python standard library (no install needed):
+#    time, json, csv, os, math, struct, wave,
+#    threading, collections, urllib.request, sys, datetime
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  NOTE: YOLOv4-tiny model files (cfg, weights, names) are downloaded
+#  automatically on first run via urllib. No extra pip install needed.
+# ─────────────────────────────────────────────────────────────────────────────
+
+# Optional — Linux audio playback (install via system, not pip)
+#   sudo apt install alsa-utils        ← for aplay (Linux)
+#   macOS uses built-in afplay (no install needed)
+#   Windows uses built-in winsound (no install needed)
+pyserial>=3.5
+
+# Voice warnings (optional)
+pyttsx3>=2.90

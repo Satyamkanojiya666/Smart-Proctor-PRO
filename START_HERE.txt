@@ -1,0 +1,10 @@
+SMART PROCTOR PRO
+1. Double-click run.bat   (or:  python exam_proctor_elite.py)
+2. Browser opens http://localhost:8000   (FIRST RUN: internet on, face models ~37 MB download once)
+3. Teacher: login admin / admin123 -> Students -> Manage -> upload photo (asks admin password)
+4. Student: Register -> Login -> Start Exam -> face + voice verification -> exam
+Options: --show-window  --simulate  --port COM3  --dash-port 8080
+Stop: Teacher console -> "Stop system"  or  Ctrl+C
+
+DEMO TIP: Teacher -> Exam Editor -> pick 'Quick Demo Paper' -> Make active (3 min exam for viva).
+Access code (optional): set "access_code" in a paper.
