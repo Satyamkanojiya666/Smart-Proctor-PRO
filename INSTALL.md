@@ -50,7 +50,7 @@ pip install opencv-python mediapipe numpy
 
 ### Step 4 — Run
 ```cmd
-python exam_proctor_elite.py
+python smart_proctor_pro.py
 ```
 
 ---
@@ -86,7 +86,7 @@ Enable access for **Terminal** (or your IDE).
 
 ### Step 5 — Run
 ```bash
-python3 exam_proctor_elite.py
+python3 smart_proctor_pro.py
 ```
 
 ---
@@ -122,7 +122,7 @@ pip install opencv-python mediapipe numpy
 
 ### Step 5 — Run
 ```bash
-python3 exam_proctor_elite.py
+python3 smart_proctor_pro.py
 ```
 
 ---
@@ -214,7 +214,7 @@ sudo apt install alsa-utils -y
 
 ```
 ProctorAI/
-├── exam_proctor_elite.py       ← main script
+├── smart_proctor_pro.py       ← main script
 ├── requirements.txt            ← this file
 ├── INSTALL.md                  ← install guide
 ├── README.md                   ← project overview

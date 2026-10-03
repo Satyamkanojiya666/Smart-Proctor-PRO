@@ -20,7 +20,7 @@ for mod in ("mediapipe", "numpy", "serial"):
 try: import pyttsx3; res(True, "pyttsx3 (optional voice)")
 except Exception: print("  [ -- ] pyttsx3 not installed (optional, browser speaks warnings anyway)")
 
-for f, fix in (("exam_proctor_elite.py", ""), ("webapp.py", ""), ("faceid.py", ""), ("extras.py", ""), ("iot_bridge.py", ""),
+for f, fix in (("smart_proctor_pro.py", ""), ("webapp.py", ""), ("faceid.py", ""), ("extras.py", ""), ("iot_bridge.py", ""),
                ("face_landmarker.task", "copy from the old folder"), ("yolov4-tiny.cfg", "copy from the old folder"),
                ("coco.names", "copy from the old folder")):
     res(os.path.exists(f), f, fix or "file missing - re-extract the zip")

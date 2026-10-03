@@ -8,8 +8,8 @@ Wiring is written at the top of `firmware/esp32_proctor_node/esp32_proctor_node.
 ## Steps
 1. Arduino IDE -> Board: "ESP32 Dev Module" -> open the .ino -> Upload.
 2. `pip install -r requirements.txt`
-3. Run with hardware:  `python exam_proctor_elite.py`  (port auto-detect)  or  `--port COM3`
-4. Run WITHOUT hardware (demo/viva): `python exam_proctor_elite.py --simulate`
+3. Run with hardware:  `python smart_proctor_pro.py`  (port auto-detect)  or  `--port COM3`
+4. Run WITHOUT hardware (demo/viva): `python smart_proctor_pro.py --simulate`
    keys: T=talking, A=student away, P=PIR motion, B=help button
 5. Dashboard: http://localhost:8000 (phone: http://<PC-IP>:8000)
 
